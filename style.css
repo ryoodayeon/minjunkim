@@ -15,6 +15,12 @@ body {
     text-decoration: none; /* 밑줄 없애기 */
 }
 
+.link-text {
+    opacity: 1;
+    color: #ffffff;
+    text-decoration: none; /* 밑줄 없애기 */
+}
+
 h2 {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
@@ -60,7 +66,7 @@ a:hover .link-text,
 .nav a {
     font-size: 16px;
     text-decoration: none;
-    color: black;
+    color: #ffffff;
     font-weight: medium;
 }
 
