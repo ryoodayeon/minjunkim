@@ -114,28 +114,32 @@
 
 </body>
 <script>
-    let fullView = false;
+let fullView = false;
 
-    document.getElementById('toggleView').addEventListener('click', function () {
+document.getElementById('toggleView').addEventListener('click', function () {
+
+    if (window.innerWidth >= 720) {
     const allImages = document.querySelectorAll('.photo-grid img');
 
     if (!fullView) {
-        allImages.forEach(img => {
+    allImages.forEach(img => {
         img.style.width = 'auto';
         img.style.height = '60vh';
         img.style.objectFit = 'cover';
-        });
+    });
     } else {
-        allImages.forEach(img => {
+    allImages.forEach(img => {
         img.style.height = '200px';
         img.style.width = 'auto';
         img.style.objectFit = 'cover';
         img.style.flex = 'initial';
-        });
+    });
     }
 
     fullView = !fullView;
-    });
+}
+});
+
 </script>
 
 </html>
