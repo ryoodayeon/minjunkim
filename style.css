@@ -6,7 +6,7 @@
 
 body {
     font-family: serif;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
 }
 
 .link-text {
@@ -44,7 +44,7 @@ a:hover .link-text,
     left: 0;
     width: 100vw;
     height: 30px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-between;
