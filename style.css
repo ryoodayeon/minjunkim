@@ -14,11 +14,6 @@ body {
     color: #000;
     text-decoration: none; /* 밑줄 없애기 */
 }
-.link-text-nav {
-    opacity: 1;
-    color: #f1f1f1;
-    text-decoration: none; /* 밑줄 없애기 */
-}
 
 h2 {
     text-decoration: none;
@@ -39,8 +34,7 @@ a {
 
 
 a:hover .link-text,
-a:hover .link-text-nav,
-#toggleView:hover .link-text-nav {
+#toggleView:hover .link-text {
     color: gray;
 }
 
@@ -50,7 +44,7 @@ a:hover .link-text-nav,
     left: 0;
     width: 100vw;
     height: 30px;
-    background-color: #000000;
+    background-color: #f1f1f1;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,7 +82,7 @@ section {
 .photo-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 6px;
     justify-content: flex-start;
 }
 
